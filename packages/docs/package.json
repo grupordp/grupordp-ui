@@ -1,0 +1,36 @@
+{
+  "name": "@grupordp/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build && touch ./storybook-static/.nojekyll",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.4.1",
+    "@storybook/addon-interactions": "^7.4.1",
+    "@storybook/addon-links": "^7.4.1",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/blocks": "^7.4.1",
+    "@storybook/react": "^7.4.1",
+    "@storybook/react-vite": "^7.4.1",
+    "@storybook/storybook-deployer": "^2.8.16",
+    "@storybook/testing-library": "^0.2.0",
+    "@vitejs/plugin-react": "^4.0.4",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.4.1",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@grupordp/ui": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
