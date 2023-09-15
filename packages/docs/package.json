@@ -1,5 +1,5 @@
 {
-  "name": "@grupordp/docs",
+  "name": "@rdpgrupo/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,7 +29,7 @@
     "vite": "^4.4.9"
   },
   "dependencies": {
-    "@grupordp/ui": "*",
+    "@rdpgrupo/ui": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

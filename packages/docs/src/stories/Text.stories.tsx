@@ -1,5 +1,5 @@
 import type {StoryObj, Meta} from '@storybook/react'
-import {Text} from '@grupordp/ui'
+import {Text} from '@rdpgrupo/ui'
 
 export default {
     title: 'App',
