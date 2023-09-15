@@ -1,9 +1,6 @@
-name: Deploy docs
+name: Checkout branch
 
-on:
-  push:
-    branches:
-      - main
+on: [pull_request]
 
 jobs:
   build-and-deploy:
@@ -25,9 +22,3 @@ jobs:
         env:
           TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: grupordp
-
-      - name: Deploy storybook
-        working-directory: ./packages/docs
-        run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
-        env:
-          GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
