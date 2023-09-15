@@ -1,6 +1,6 @@
 /** @type { import('@storybook/react').Preview } */
 
-import '@grupordp/ui/dist/index.css'
+import '@rdpgrupo/ui/dist/index.css'
 
 const preview = {
   parameters: {
