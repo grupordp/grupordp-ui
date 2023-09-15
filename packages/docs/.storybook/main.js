@@ -32,7 +32,7 @@ const config = {
   },
   viteFinal: (config, {configType}) => {
     if(configType === 'PRODUCTION') {
-      config.base = '/ui/'
+      config.base = '/grupordp-ui/'
     }
     
     return config
