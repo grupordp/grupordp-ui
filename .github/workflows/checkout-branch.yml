@@ -3,7 +3,7 @@ name: Checkout branch
 on: [pull_request]
 
 jobs:
-  build-and-deploy:
+  checkout-and-build:
     runs-on: ubuntu-latest
     steps: 
       - name: Checkout
