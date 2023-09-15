@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+
+  frontend:
+    build:
+      context: ./
+
+    container_name: grupordp
+
+    networks:
+      - grupo-rdp
+
+    tty: true
+
+    ports:
+      - "6006:6006"    
+
+networks: 
+  grupo-rdp:
+    driver: bridge  
