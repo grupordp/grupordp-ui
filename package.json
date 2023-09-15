@@ -8,10 +8,14 @@
         "build": "turbo run build",
         "changeset": "changeset",
         "version-packages": "changeset version",
-        "release": "turbo run build --filter=!@grupordp/docs && changeset publish"
+        "release": "turbo run build --filter=!@grupordp/docs && changeset publish",
+        "commitlint": "commitlint --edit"
     },
     "devDependencies": {
         "@changesets/cli": "^2.26.2",
+        "@commitlint/cli": "^17.7.1",
+        "@commitlint/config-conventional": "^17.7.0",
+        "husky": "^8.0.3",
         "turbo": "^1.10.13"
     }
 }
