@@ -4,10 +4,10 @@ interface TokensGridProps {
   hasRemValue?: boolean
 }
 
-export function FontSizes({ hasRemValue = true }: TokensGridProps) {
-  const themeFontSizes = config.theme.extend.fontSize
+export function LineHeights({ hasRemValue = true }: TokensGridProps) {
+  const themeLineHeights = config.theme.extend.lineHeight
 
-  if (!themeFontSizes) {
+  if (!themeLineHeights) {
     return null
   }
 
@@ -21,7 +21,7 @@ export function FontSizes({ hasRemValue = true }: TokensGridProps) {
         </tr>
       </thead>
       <tbody>
-        {Object.entries(themeFontSizes).map(([key, value]) => {
+        {Object.entries(themeLineHeights).map(([key, value]) => {
           return (
             <tr key={key}>
               <td>{key}</td>

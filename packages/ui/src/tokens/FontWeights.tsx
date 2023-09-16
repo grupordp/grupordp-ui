@@ -4,10 +4,10 @@ interface TokensGridProps {
   hasRemValue?: boolean
 }
 
-export function FontSizes({ hasRemValue = true }: TokensGridProps) {
-  const themeFontSizes = config.theme.extend.fontSize
+export function FontWeights({ hasRemValue = false }: TokensGridProps) {
+  const themeFontWeights = config.theme.extend.fontWeight
 
-  if (!themeFontSizes) {
+  if (!themeFontWeights) {
     return null
   }
 
@@ -21,14 +21,12 @@ export function FontSizes({ hasRemValue = true }: TokensGridProps) {
         </tr>
       </thead>
       <tbody>
-        {Object.entries(themeFontSizes).map(([key, value]) => {
+        {Object.entries(themeFontWeights).map(([key, value]) => {
           return (
             <tr key={key}>
               <td>{key}</td>
-              <td style={{ fontFamily: value }}>{value}</td>
-              {hasRemValue && (
-                <td>{Number(value.replace('rem', '')) * 16}px</td>
-              )}
+              <td>{value}</td>
+              {hasRemValue && <td>{value}</td>}
             </tr>
           )
         })}
