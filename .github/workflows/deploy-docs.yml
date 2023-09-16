@@ -21,6 +21,11 @@ jobs:
 
       - run: npm ci
 
+      - name: Lint UI package
+        run: |
+          cd ./packages/ui
+          npm run lint
+
       - run: npm run build
         env:
           TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}

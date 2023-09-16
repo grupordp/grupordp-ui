@@ -24,6 +24,11 @@ jobs:
 
       - run: npm ci
 
+      - name: Lint UI package
+        run: |
+          cd ./packages/ui
+          npm run lint
+
       - name: Publish to NPM
         id: changesets
         uses: changesets/action@v1
