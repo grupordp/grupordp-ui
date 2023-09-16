@@ -1,5 +1,4 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+export const config = {
   content: ['./src/ui/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
@@ -125,4 +124,5 @@ module.exports = {
     },
     plugins: [],
   },
+  plugins: [],
 }
