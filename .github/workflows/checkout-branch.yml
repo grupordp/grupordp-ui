@@ -18,7 +18,13 @@ jobs:
 
       - run: npm ci
 
-      - run: npm run build
+      - name: Lint UI package
+        run: |
+          cd ./packages/ui
+          npm run lint
+
+      - name: Build application
+        run: npm run build
         env:
           TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: grupordp
