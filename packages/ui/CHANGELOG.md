@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.0.3
+
+### Patch Changes
+
+- Created homepage and tokens page on the docs
+
 ## 1.0.2
 
 ### Patch Changes
