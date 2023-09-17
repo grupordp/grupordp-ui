@@ -4,7 +4,7 @@ interface TokensGridProps {
   hasRemValue?: boolean
 }
 
-export function FontSizes({ hasRemValue = true }: TokensGridProps) {
+export function FontSizes({ hasRemValue = false }: TokensGridProps) {
   const themeFontSizes = config.theme.extend.fontSize
 
   if (!themeFontSizes) {
