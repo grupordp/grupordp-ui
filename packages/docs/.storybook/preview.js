@@ -3,6 +3,7 @@
 import '@rdpgrupo/ui/dist/index.css'
 import {themes} from '@storybook/theming'
 
+
 const preview = {
   parameters: {
     backgrounds: {
@@ -27,7 +28,7 @@ const preview = {
     },
     docs: {
       theme: themes.dark
-    }
+    },
   },
 };
 
