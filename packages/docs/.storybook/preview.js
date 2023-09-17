@@ -1,7 +1,6 @@
 /** @type { import('@storybook/react').Preview } */
 
 import '@rdpgrupo/ui/dist/index.css'
-import {themes} from '@storybook/theming'
 
 const preview = {
   parameters: {
@@ -25,9 +24,6 @@ const preview = {
         date: /Date$/,
       },
     },
-    docs: {
-      theme: themes.dark
-    }
   },
 };
 
