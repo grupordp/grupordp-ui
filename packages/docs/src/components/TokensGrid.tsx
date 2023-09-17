@@ -1,16 +1,13 @@
-import { config } from '../../tailwind.config'
+import React from 'react'
+
+import '../styles/tokens-grid.css'
 
 interface TokensGridProps {
+  tokens: Record<string, string>
   hasRemValue?: boolean
 }
 
-export function FontFamilies({ hasRemValue = false }: TokensGridProps) {
-  const themeFontFamilies = config.theme.extend.fontFamily
-
-  if (!themeFontFamilies) {
-    return null
-  }
-
+export function TokensGrid({ tokens, hasRemValue = false }: TokensGridProps) {
   return (
     <table className="tokens-grid">
       <thead>
@@ -21,13 +18,13 @@ export function FontFamilies({ hasRemValue = false }: TokensGridProps) {
         </tr>
       </thead>
       <tbody>
-        {Object.entries(themeFontFamilies).map(([key, value]) => {
+        {Object.entries(tokens).map(([key, value]) => {
           return (
             <tr key={key}>
               <td>{key}</td>
-              <td style={{ fontFamily: value[0] }}>{value[0]}</td>
+              <td>{value}</td>
               {hasRemValue && (
-                <td>{Number(value[0].replace('rem', '')) * 16}px</td>
+                <td>{Number(value.replace('rem', '')) * 16}px</td>
               )}
             </tr>
           )

@@ -1,8 +1,12 @@
-import {Meta} from '@storybook/addon-docs'
-import {FontWeights} from '@rdpgrupo/ui/src/tokens/FontWeights'
+import { Meta } from '@storybook/blocks';
+import {TokensGrid} from '../../components/TokensGrid'
+import {fontWeight} from '@rdpgrupo/ui/src/tokens/fontWeights'
+
 
 <Meta title="Tokens/Font Weights" />
 
-# Font Weights
+# Colors
 
-<FontWeights/>
+These are the font weights used in the design system
+
+<TokensGrid tokens={fontWeight} />

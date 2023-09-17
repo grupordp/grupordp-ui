@@ -1,5 +1,5 @@
 import '../styles/global.css'
 
 export function Text() {
-  return <p className="text-gray-3">Testando aplicação12345!!</p>
+  return <p className="text-info text-lg">Testando aplicação12345!!</p>
 }

@@ -1,16 +1,10 @@
 # @grupordp/ui
 
-## 1.0.4
-
-### Patch Changes
-
-- Added the tokens line heights and font weights from the design system
-
 ## 1.0.3
 
 ### Patch Changes
 
-- Added UI Tokens at the package.
+- Created homepage and tokens page on the docs
 
 ## 1.0.2
 
