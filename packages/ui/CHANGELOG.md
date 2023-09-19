@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.0.6
+
+### Patch Changes
+
+- Added Text component
+
 ## 1.0.3
 
 ### Patch Changes
