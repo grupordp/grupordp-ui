@@ -1,4 +1,7 @@
 {
     "extends": "@has-software/ts-config/react.json",
-    "include": ["src"]
+    "include": ["src"],
+    "compilerOptions": {
+        "types": ["jest", "@testing-library/jest-dom"]
+      }
 }
