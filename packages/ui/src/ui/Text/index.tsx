@@ -6,7 +6,7 @@ import '../../styles/global.css'
 export interface TextProps extends VariantProps<typeof styles> {
   children: ReactNode
   as?: ElementType
-  className: string
+  className?: string
 }
 
 export function Text({
