@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 
-import {colors} from './src/tokens/colors'
-import {fontSize} from './src/tokens/fontSizes'
-import {fontWeight} from './src/tokens/fontWeights'
-import {fontFamily} from './src/tokens/fonts'
-import {lineHeight} from './src/tokens/lineHeights'
+import { colors } from './src/tokens/colors'
+import { fontSize } from './src/tokens/fontSizes'
+import { fontWeight } from './src/tokens/fontWeights'
+import { fontFamily } from './src/tokens/fonts'
+import { lineHeight } from './src/tokens/lineHeights'
 
 module.exports = {
   content: ['./src/ui/**/*.{js,ts,jsx,tsx,mdx}'],
