@@ -4,11 +4,11 @@ export const styles = tv(
   {
     variants: {
       size: {
-        p1: 'text-xl leading-6',
-        p2: 'text-lg leading-5',
-        p3: 'text-base leading-4',
-        p4: 'text-sm leading-3',
-        p5: 'text-xs leading-2',
+        p1: 'text-xl leading-5',
+        p2: 'text-lg leading-4',
+        p3: 'text-base leading-3',
+        p4: 'text-sm leading-2',
+        p5: 'text-xs leading-1',
       },
       color: {
         transparent: 'text-transparent',
