@@ -12,7 +12,7 @@ describe('Text Component', () => {
     const renderedText = getByText('Styled Text')
 
     expect(renderedText).toHaveClass(
-      'text-base leading-4 text-error text-center font-bold',
+      'text-base leading-3 text-error text-center font-bold',
     )
   })
 
@@ -26,7 +26,7 @@ describe('Text Component', () => {
     const renderedText = getByText('Add padding')
 
     expect(renderedText).toHaveClass(
-      'text-base leading-4 text-gray-0 font-semibold p-4',
+      'text-base leading-3 text-gray-0 font-semibold p-4',
     )
   })
 
@@ -40,7 +40,7 @@ describe('Text Component', () => {
     const renderedText = getByText('Overridden Styles')
 
     expect(renderedText).toHaveClass(
-      'text-base leading-4 text-gray-1 font-semibold',
+      'text-base leading-3 text-gray-1 font-semibold',
     )
   })
 
@@ -71,7 +71,7 @@ describe('Text Component', () => {
     const renderedText = 'Adding breakpoints on styles'
 
     expect(screen.getByText(renderedText)).toHaveClass(
-      'text-base leading-4 sm:text-sm sm:leading-3 text-gray-0 sm:text-gray-9 font-bold sm:font-normal',
+      'text-base leading-3 sm:text-sm sm:leading-2 text-gray-0 sm:text-gray-9 font-bold sm:font-normal',
     )
   })
 })
