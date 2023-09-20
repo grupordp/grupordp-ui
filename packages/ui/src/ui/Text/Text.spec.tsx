@@ -55,4 +55,23 @@ describe('Text Component', () => {
 
     expect(screen.getByText(renderedText).tagName).toBe('LABEL')
   })
+
+  it('should add breakpoints on styles', () => {
+    render(
+      <Text
+        as="label"
+        size={{ initial: 'p3', sm: 'p4' }}
+        color={{ initial: 'gray-0', sm: 'gray-9' }}
+        weight={{ initial: 'bold', sm: 'regular' }}
+      >
+        Adding breakpoints on styles
+      </Text>,
+    )
+
+    const renderedText = 'Adding breakpoints on styles'
+
+    expect(screen.getByText(renderedText)).toHaveClass(
+      'text-base leading-4 sm:text-sm sm:leading-3 text-gray-0 sm:text-gray-9 font-bold sm:font-normal',
+    )
+  })
 })
