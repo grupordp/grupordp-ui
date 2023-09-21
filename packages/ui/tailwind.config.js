@@ -6,7 +6,10 @@ import { fontWeight } from './src/tokens/fontWeights'
 import { fontFamily } from './src/tokens/fonts'
 import { lineHeight } from './src/tokens/lineHeights'
 
-module.exports = {
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { withTV } = require('tailwind-variants/transformer')
+
+module.exports = withTV({
   content: ['./src/ui/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
@@ -65,4 +68,4 @@ module.exports = {
     },
     plugins: [],
   },
-}
+})

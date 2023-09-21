@@ -1,15 +1,15 @@
 import { ElementType, ReactNode } from 'react'
 import { styles } from './styles'
 import { VariantProps } from 'tailwind-variants'
-import '../../styles/global.css'
+import '../../../styles/global.css'
 
-export interface TextProps extends VariantProps<typeof styles> {
+export interface HeadingProps extends VariantProps<typeof styles> {
   children: ReactNode
   as?: ElementType
   className?: string
 }
 
-export function Text({
+export function Heading({
   children,
   as,
   size,
@@ -17,8 +17,8 @@ export function Text({
   alignment,
   className,
   weight,
-}: TextProps) {
-  const Component = as || 'span'
+}: HeadingProps) {
+  const Component = as || 'h2'
   const componentStyles = styles({
     size,
     color,

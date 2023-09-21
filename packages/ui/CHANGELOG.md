@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.0.7
+
+### Patch Changes
+
+- Added button component using composition pattern
+
 ## 1.0.6
 
 ### Patch Changes
