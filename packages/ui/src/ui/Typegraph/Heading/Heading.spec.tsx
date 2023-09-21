@@ -2,7 +2,12 @@ import { render, screen } from '@testing-library/react'
 import { Heading } from '.'
 
 describe('Heading Component', () => {
-  it('should apply styles passed via props', () => {
+  it('should render without crashing', () => {
+    const { getByText } = render(<Heading>Test Heading</Heading>)
+    expect(getByText('Test Heading')).toBeInTheDocument()
+  })
+
+  it('should render with tailwind variant styles', () => {
     const { getByText } = render(
       <Heading size="h3" color="error" alignment="center" weight="bold">
         Styled Text
@@ -16,7 +21,7 @@ describe('Heading Component', () => {
     )
   })
 
-  it('should apply styles via className', () => {
+  it('should accept and render with a custom className', () => {
     const { getByText } = render(
       <Heading className="p-4" size="h3" color="gray-0" weight="semibold">
         Add padding
@@ -30,7 +35,7 @@ describe('Heading Component', () => {
     )
   })
 
-  it('should override default styles with className', () => {
+  it('should override tailwind variant styles', () => {
     const { getByText } = render(
       <Heading
         className="text-gray-1"
@@ -49,7 +54,7 @@ describe('Heading Component', () => {
     )
   })
 
-  it('should render using the tag provided via the "as" prop', () => {
+  it('should render with a custom element', () => {
     render(
       <Heading as="h1" size="h3" color="gray-0" weight="semibold">
         Rendering not default tag
@@ -61,7 +66,7 @@ describe('Heading Component', () => {
     expect(screen.getByText(renderedText).tagName).toBe('H1')
   })
 
-  it('should add breakpoints on styles', () => {
+  it('should render with responsive breakpoints', () => {
     render(
       <Heading
         as="label"

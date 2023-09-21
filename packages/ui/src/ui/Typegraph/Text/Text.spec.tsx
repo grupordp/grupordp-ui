@@ -2,21 +2,24 @@ import { render, screen } from '@testing-library/react'
 import { Text } from '.'
 
 describe('Text Component', () => {
-  it('should apply styles passed via props', () => {
+  it('should render without crashing', () => {
+    const { getByText } = render(<Text>Test Text</Text>)
+    expect(getByText('Test Text')).toBeInTheDocument()
+  })
+
+  it('should render with tailwind variant styles', () => {
     const { getByText } = render(
       <Text size="p3" color="error" alignment="center" weight="bold">
         Styled Text
       </Text>,
     )
 
-    const renderedText = getByText('Styled Text')
-
-    expect(renderedText).toHaveClass(
+    expect(getByText('Styled Text')).toHaveClass(
       'text-base leading-3 text-error text-center font-bold',
     )
   })
 
-  it('should apply styles via className', () => {
+  it('should accept and render with a custom className', () => {
     const { getByText } = render(
       <Text className="p-4" size="p3" color="gray-0" weight="semibold">
         Add padding
@@ -30,21 +33,19 @@ describe('Text Component', () => {
     )
   })
 
-  it('should override default styles with className', () => {
+  it('should override tailwind variant styles', () => {
     const { getByText } = render(
       <Text className="text-gray-1" size="p3" color="gray-0" weight="semibold">
         Overridden Styles
       </Text>,
     )
 
-    const renderedText = getByText('Overridden Styles')
-
-    expect(renderedText).toHaveClass(
+    expect(getByText('Overridden Styles')).toHaveClass(
       'text-base leading-3 text-gray-1 font-semibold',
     )
   })
 
-  it('should render using the tag provided via the "as" prop', () => {
+  it('should render with a custom element', () => {
     render(
       <Text as="label" size="p3" color="gray-0" weight="semibold">
         Rendering not default tag
@@ -56,7 +57,7 @@ describe('Text Component', () => {
     expect(screen.getByText(renderedText).tagName).toBe('LABEL')
   })
 
-  it('should add breakpoints on styles', () => {
+  it('should render with responsive breakpoints', () => {
     render(
       <Text
         as="label"
