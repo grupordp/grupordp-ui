@@ -59,7 +59,7 @@ module.exports = withTV({
         },
       },
       animation: {
-        'vertical-slide-in': 'verticalSlideIn 0.4s ease-out',
+        'vertical-slide-in': 'verticalSlideIn 0.2s ease-out',
         'vertical-slide-out': 'verticalSlideOut 0.2s ease-out',
         'horizontal-slide-in': 'horizontalSlideIn 0.4s ease-out',
         'horizontal-slide-out': 'horizontalSlideOut 0.4s ease-out',

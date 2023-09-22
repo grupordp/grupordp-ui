@@ -25,3 +25,5 @@ export function PasswordAction({
     </button>
   )
 }
+
+PasswordAction.displayName = 'PasswordAction'

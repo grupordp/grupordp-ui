@@ -15,3 +15,5 @@ export function TextInputStatus({ error, large }: TextInputStatusProps) {
 
   return <StatusIcon className={componentStyles} />
 }
+
+TextInputStatus.displayName = 'Status'

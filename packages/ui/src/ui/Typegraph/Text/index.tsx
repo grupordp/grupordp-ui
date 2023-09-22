@@ -29,3 +29,5 @@ export function Text({
 
   return <Component className={componentStyles}>{children}</Component>
 }
+
+Text.displayName = 'Text'

@@ -31,3 +31,5 @@ export function ButtonRoot({
     </button>
   )
 }
+
+ButtonRoot.displayName = 'Root'

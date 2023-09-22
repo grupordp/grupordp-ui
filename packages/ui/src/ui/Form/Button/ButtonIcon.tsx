@@ -20,3 +20,5 @@ export function ButtonIcon({
 
   return <Icon className={componentStyles} {...props} />
 }
+
+ButtonIcon.displayName = 'Icon'
