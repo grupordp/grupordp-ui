@@ -7,3 +7,5 @@ interface TextInputActionsProps {
 export function TextInputActions({ children }: TextInputActionsProps) {
   return <div className="flex gap-2">{children}</div>
 }
+
+TextInputActions.displayName = 'Actions'

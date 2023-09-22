@@ -24,3 +24,5 @@ export function TextInputRoot({
     </div>
   )
 }
+
+TextInputRoot.displayName = 'Root'

@@ -21,3 +21,5 @@ const TextInputBase: ForwardRefRenderFunction<
 }
 
 export const TextInputInput = forwardRef(TextInputBase)
+
+TextInputInput.displayName = 'Input'
