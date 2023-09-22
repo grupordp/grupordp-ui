@@ -19,3 +19,5 @@ export function TextInputIcon({
 
   return <Icon className={componentStyles} />
 }
+
+TextInputIcon.displayName = 'Icon'

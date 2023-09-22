@@ -29,3 +29,5 @@ export function Heading({
 
   return <Component className={componentStyles}>{children}</Component>
 }
+
+Heading.displayName = 'Heading'
