@@ -1,5 +1,35 @@
 # @grupordp/ui
 
+## 1.0.15
+
+### Patch Changes
+
+- Fix TextInput styles
+
+## 1.0.14
+
+### Patch Changes
+
+- Autocomplete off on text input
+
+## 1.0.13
+
+### Patch Changes
+
+- Updated styles Text Input component
+
+## 1.0.12
+
+### Patch Changes
+
+- Exporting client components separetes
+
+## 1.0.9
+
+### Patch Changes
+
+- Removing exportation from Checkbox components
+
 ## 1.0.8
 
 ### Patch Changes

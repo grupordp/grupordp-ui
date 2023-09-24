@@ -17,7 +17,14 @@ const TextInputBase: ForwardRefRenderFunction<
 > = ({ variant, className, large, ...props }, ref) => {
   const componentStyles = styles().input({ className, variant, large })
 
-  return <input className={componentStyles} {...props} ref={ref} />
+  return (
+    <input
+      className={componentStyles}
+      autoComplete="off"
+      {...props}
+      ref={ref}
+    />
+  )
 }
 
 export const TextInputInput = forwardRef(TextInputBase)
