@@ -6,8 +6,7 @@ on:
       - main
 
 jobs:
-  lint:
-    name: Linting
+  test-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,49 +21,16 @@ jobs:
 
       - run: npm ci
 
-      - name: Lint UI package
+      - name: Lint
         run: |
           cd ./packages/ui
           npm run lint
 
-  tests:
-    name: Tests
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: 'npm'
-          cache-dependency-path: '**/package-lock.json'
-
-      - run: npm ci
-
-      - name: Run UI package tests
+      - name: Test
         run: |
           cd ./packages/ui
           npm run test
-
-  deploy-storybook:
-    name: Deploy Storybook
-    needs: [lint, tests]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: 'npm'
-          cache-dependency-path: '**/package-lock.json'
-
-      - run: npm ci
-
+          
       - run: npm run build
         env:
           TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}

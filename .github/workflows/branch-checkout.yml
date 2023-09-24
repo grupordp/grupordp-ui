@@ -1,19 +1,14 @@
-name: Release
+name: Checkout branch
 
-on:
-  push:
-    branches:
-      - main
-
-concurrency: ${{ github.workflow }}-${{ github.ref }}
+on: [pull_request]
 
 jobs:
-  test-and-release:
+  test-and-build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
+        
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
@@ -32,14 +27,9 @@ jobs:
         run: |
           cd ./packages/ui
           npm run test
-
-      - name: Publish to NPM
-        id: changesets
-        uses: changesets/action@v1
-        with:
-          publish: npm run release
+          
+      - name: Build
+        run: npm run build
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: grupordp
