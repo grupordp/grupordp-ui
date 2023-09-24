@@ -13,7 +13,7 @@ export const styles = tv(
     variants: {
       variant: {
         default: {
-          root: 'bg-gray-8 text-gray-3 focus-within:ring-2 ring-gray-7',
+          root: 'bg-gray-8 text-gray-3 ring-1 ring-gray-7 focus-within:ring-gray-6',
           input: 'placeholder:text-gray-4',
           icon: 'text-gray-4',
           status: 'text-gray-4',

@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Checkbox, CheckboxBoxProps } from '@rdpgrupo/ui'
+import { Checkbox, CheckboxBoxProps } from '@rdpgrupo/ui/src/client-components'
 
 import React, { useState } from 'react'
 
