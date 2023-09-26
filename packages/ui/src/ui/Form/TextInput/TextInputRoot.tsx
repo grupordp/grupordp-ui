@@ -1,3 +1,5 @@
+import '../../../styles/global.css'
+
 import { ComponentProps, ReactNode } from 'react'
 import { styles } from './styles'
 import { VariantProps } from 'tailwind-variants'
