@@ -1,3 +1,5 @@
+import '../../../styles/global.css'
+
 import { Eye, EyeOff } from 'lucide-react'
 import { styles } from './styles'
 import { VariantProps } from 'tailwind-variants'

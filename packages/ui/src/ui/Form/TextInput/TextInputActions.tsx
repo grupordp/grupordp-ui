@@ -1,3 +1,5 @@
+import '../../../styles/global.css'
+
 import { ReactNode } from 'react'
 
 interface TextInputActionsProps {
