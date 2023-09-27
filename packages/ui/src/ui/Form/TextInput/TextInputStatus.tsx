@@ -1,3 +1,5 @@
+import '../../../styles/global.css'
+
 import { XCircle, CheckCircle2 } from 'lucide-react'
 import { VariantProps } from 'tailwind-variants'
 import { styles } from './styles'
