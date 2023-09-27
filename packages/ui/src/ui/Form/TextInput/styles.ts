@@ -45,7 +45,7 @@ export const styles = tv(
       },
       error: {
         true: {
-          root: 'ring-2 ring-error-b10',
+          root: 'ring-1 ring-error-b10 focus-within:ring-error-b10',
           input: '',
           icon: '',
           status: 'text-error-b10',

@@ -64,7 +64,7 @@ describe('TextInput Component', () => {
     )
 
     expect(container.querySelector('div')).toHaveClass(
-      ' flex justify-center items-center w-full px-5 bg-gray-8 text-gray-3 focus-within:ring-gray-6 h-12 rounded-[0.875rem] ring-2 ring-error-b10',
+      'flex justify-center items-center w-full px-5 bg-gray-8 text-gray-3 h-12 rounded-[0.875rem] ring-1 ring-error-b10 focus-within:ring-error-b10',
     )
 
     expect(container.querySelector('.text-error-b10')).toBeInTheDocument()
@@ -92,7 +92,7 @@ describe('TextInput Component', () => {
     )
 
     expect(container.querySelector('div')).toHaveClass(
-      'flex justify-center items-center w-full px-5 text-gray-3 focus-within:ring-gray-6 h-12 rounded-[0.875rem] ring-2 ring-error-b10 bg-red-500',
+      'flex justify-center items-center w-full px-5 text-gray-3 h-12 rounded-[0.875rem] ring-1 ring-error-b10 focus-within:ring-error-b10 bg-red-500',
     )
     expect(container.querySelector('svg.text-blue-300')).toBeInTheDocument()
     expect(container.querySelector('svg.text-gray-4')).not.toBeInTheDocument()

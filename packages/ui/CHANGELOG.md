@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.0.18
+
+### Patch Changes
+
+- Text Input on focus stays with state error
+
 ## 1.0.17
 
 ### Patch Changes
