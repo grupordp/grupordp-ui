@@ -1,5 +1,17 @@
 # @grupordp/ui
 
+## 1.0.17
+
+### Patch Changes
+
+- Changing rounded-[0.875rem] to rounded-[14px]
+
+## 1.0.16
+
+### Patch Changes
+
+- Importing global styles on Text Input components
+
 ## 1.0.15
 
 ### Patch Changes
