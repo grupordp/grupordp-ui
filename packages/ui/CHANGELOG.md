@@ -1,5 +1,41 @@
 # @grupordp/ui
 
+## 1.0.23
+
+### Patch Changes
+
+- Adding flag 'use client' on Checkbox components
+
+## 1.0.22
+
+### Patch Changes
+
+- Exporting again Checkbox
+
+## 1.0.21
+
+### Patch Changes
+
+- Exporting Checkbox component in index root
+
+## 1.0.21
+
+### Patch Changes
+
+- Adding new path to be transpiled
+
+## 1.0.20
+
+### Patch Changes
+
+- Exporting others components from client-components
+
+## 1.0.19
+
+### Patch Changes
+
+- Font familly into body tag
+
 ## 1.0.18
 
 ### Patch Changes
