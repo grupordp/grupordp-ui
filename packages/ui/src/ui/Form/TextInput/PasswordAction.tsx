@@ -1,9 +1,10 @@
 import '../../../styles/global.css'
 
-import { Eye, EyeOff } from 'lucide-react'
 import { styles } from './styles'
 import { VariantProps } from 'tailwind-variants'
 import { ComponentProps } from 'react'
+
+import { IconEyeRegular, IconEyeCrossedRegular } from '../../Icons'
 
 interface PasswordActionProps
   extends VariantProps<typeof styles>,
@@ -19,7 +20,7 @@ export function PasswordAction({
 }: PasswordActionProps) {
   const componentStyles = styles().passwordAction({ large, className })
 
-  const Icon = isPasswordHidden ? Eye : EyeOff
+  const Icon = isPasswordHidden ? IconEyeRegular : IconEyeCrossedRegular
 
   return (
     <button {...props}>
