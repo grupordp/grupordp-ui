@@ -1,5 +1,47 @@
 # @grupordp/ui
 
+## 1.0.30
+
+### Patch Changes
+
+- Exports all main icons
+
+## 1.0.29
+
+### Patch Changes
+
+- Fix IconPlaySolid and export IconExitRegular
+
+## 1.0.28
+
+### Patch Changes
+
+- Exported all the main icons
+
+## 1.0.27
+
+### Patch Changes
+
+- Exporting icons: Envelope, Lock, Eye, EyeCrossed, ArrowLeft, Check, Comment, Computer, Dashboard, Pencil, Play e Trophy.
+
+## 1.0.26
+
+### Patch Changes
+
+- Exporting icons
+
+## 1.0.25
+
+### Patch Changes
+
+- Removing font sizes from icons
+
+## 1.0.24
+
+### Patch Changes
+
+- Passing font size on TextInputIcon
+
 ## 1.0.23
 
 ### Patch Changes
