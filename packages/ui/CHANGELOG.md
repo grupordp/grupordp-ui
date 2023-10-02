@@ -1,5 +1,35 @@
 # @grupordp/ui
 
+## 1.0.35
+
+### Patch Changes
+
+- Exported IconFlameSolid
+
+## 1.0.34
+
+### Patch Changes
+
+- Fixing exports
+
+## 1.0.33
+
+### Patch Changes
+
+- Exported IconBellRegular
+
+## 1.0.32
+
+### Patch Changes
+
+- Exported IconSunRegular
+
+## 1.0.31
+
+### Patch Changes
+
+- Exported IconUndoRegular
+
 ## 1.0.30
 
 ### Patch Changes
