@@ -66,6 +66,6 @@ module.exports = withTV({
         progressAnimation: 'progressAnimation 1s forwards',
       },
     },
-    plugins: [],
+    plugins: [require('tailwind-scrollbar')],
   },
 })
