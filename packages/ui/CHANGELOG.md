@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.0.38
+
+### Patch Changes
+
+- Removed widgets from the docs and created more icons
+
 ## 1.0.37
 
 ### Patch Changes
