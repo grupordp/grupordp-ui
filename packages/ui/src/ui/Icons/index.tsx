@@ -13,6 +13,8 @@ export * from './IconUndoRegular'
 export * from './IconSunRegular'
 export * from './IconBellRegular'
 export * from './IconFlameSolid'
+export * from './IconUserRegular'
+export * from './IconSignOutRegular'
 
 export * from './IconCommentRegular'
 export * from './IconCommentSolid'
