@@ -1,6 +1,6 @@
 {
   "name": "@rdpgrupo/ui",
-  "version": "1.0.30",
+  "version": "1.0.36",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -39,7 +39,9 @@
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.0.4",
+    "@radix-ui/react-popover": "^1.0.7",
     "lucide-react": "^0.279.0",
+    "tailwind-scrollbar": "^3.0.5",
     "tailwind-variants": "^0.1.14"
   }
 }
