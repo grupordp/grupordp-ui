@@ -1,5 +1,17 @@
 # @grupordp/ui
 
+## 1.1.0
+
+### Minor Changes
+
+- Exporting components, tokens and assets
+
+## 1.0.39
+
+### Patch Changes
+
+- Export IconMoonRegular
+
 ## 1.0.38
 
 ### Patch Changes
