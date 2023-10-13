@@ -51,6 +51,14 @@ export default {
     )
   }
 
+  export const WithOutIcon: StoryObj<TextInputInputProps> = {
+    render: (args) => (
+        <TextInput.Root {...args}>
+            <TextInput.Input placeholder='Digite seu email' {...args}/>
+        </TextInput.Root>
+    )
+  }
+
   export const Small: StoryObj<TextInputInputProps> = {
     args: {
         large: 'sm'
