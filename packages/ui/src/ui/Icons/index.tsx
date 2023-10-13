@@ -15,6 +15,7 @@ export * from './IconBellRegular'
 export * from './IconFlameSolid'
 export * from './IconUserRegular'
 export * from './IconSignOutRegular'
+export * from './IconMoonRegular'
 
 export * from './IconCommentRegular'
 export * from './IconCommentSolid'

@@ -4,9 +4,8 @@ export const styles = tv(
   {
     slots: {
       root: 'flex justify-center items-center w-full px-5',
-      input:
-        'w-full bg-transparent flex-1 border-0 outline-none focus:ring-0 px-3',
-      icon: '',
+      input: 'w-full bg-transparent flex-1 border-0 outline-none focus:ring-0',
+      icon: 'mr-3',
       status: '',
       passwordAction: '',
     },
