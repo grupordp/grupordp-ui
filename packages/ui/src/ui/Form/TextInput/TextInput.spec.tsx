@@ -48,7 +48,7 @@ describe('TextInput Component', () => {
 
     expect(container.querySelector('svg')).toHaveClass('w-4 h-4 text-gray-4')
     expect(container.querySelector('input')).toHaveClass(
-      'w-full bg-transparent flex-1 border-0 outline-none focus:ring-0 px-3 placeholder:text-gray-4 text-md leading-3 placeholder:text-md placeholder:leading-3',
+      'w-full bg-transparent flex-1 border-0 outline-none focus:ring-0 placeholder:text-gray-4 text-md leading-3 placeholder:text-md placeholder:leading-3',
     )
   })
 
