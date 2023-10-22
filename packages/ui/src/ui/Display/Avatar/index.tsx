@@ -20,8 +20,6 @@ export function Avatar({
     <AvatarPrimitive.Root className={componentStyles}>
       <AvatarPrimitive.Image
         className="w-full h-full object-cover rounded-full"
-        role="avatar"
-        aria-label="avatar"
         alt="Foto de perfil do usuário"
         src={undefined ?? imageLink}
       />

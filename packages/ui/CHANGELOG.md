@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.1.2
+
+### Patch Changes
+
+- Removed attributes role and aria label
+
 ## 1.1.1
 
 ### Patch Changes
