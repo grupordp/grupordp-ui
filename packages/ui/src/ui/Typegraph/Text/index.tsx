@@ -27,7 +27,11 @@ export function Text({
     weight,
   })
 
-  return <Component className={componentStyles}>{children}</Component>
+  return (
+    <Component className={componentStyles} role="text" aria-label="text">
+      {children}
+    </Component>
+  )
 }
 
 Text.displayName = 'Text'

@@ -23,6 +23,8 @@ const TextInputBase: ForwardRefRenderFunction<
     <input
       className={componentStyles}
       autoComplete="off"
+      role="input"
+      aria-label="input"
       {...props}
       ref={ref}
     />
