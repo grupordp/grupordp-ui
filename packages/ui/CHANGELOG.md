@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.1.1
+
+### Patch Changes
+
+- SEO practicies applyed
+
 ## 1.1.0
 
 ### Minor Changes

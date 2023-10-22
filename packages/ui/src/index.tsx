@@ -6,6 +6,5 @@ export * from './ui/Form/TextInput'
 export * from './ui/Form/Checkbox'
 
 export * from './ui/Display/Avatar'
-export * from './ui/Display/Separator'
 
 export * from './ui/Icons'
