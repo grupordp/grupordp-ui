@@ -1,7 +1,6 @@
 import { ElementType, ReactNode } from 'react'
 import { styles } from './styles'
 import { VariantProps } from 'tailwind-variants'
-import '../../../styles/global.css'
 
 export interface HeadingProps extends VariantProps<typeof styles> {
   children: ReactNode
@@ -27,7 +26,11 @@ export function Heading({
     weight,
   })
 
-  return <Component className={componentStyles}>{children}</Component>
+  return (
+    <Component className={componentStyles} role="heading" aria-label="heading">
+      {children}
+    </Component>
+  )
 }
 
 Heading.displayName = 'Heading'

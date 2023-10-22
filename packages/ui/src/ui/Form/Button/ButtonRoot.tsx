@@ -26,7 +26,12 @@ export function ButtonRoot({
   })
 
   return (
-    <button className={componentStyles} {...props}>
+    <button
+      className={componentStyles}
+      role="button"
+      aria-label="button"
+      {...props}
+    >
       {children}
     </button>
   )
