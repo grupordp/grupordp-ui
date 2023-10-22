@@ -26,11 +26,7 @@ export function Heading({
     weight,
   })
 
-  return (
-    <Component className={componentStyles} role="heading" aria-label="heading">
-      {children}
-    </Component>
-  )
+  return <Component className={componentStyles}>{children}</Component>
 }
 
 Heading.displayName = 'Heading'

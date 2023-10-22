@@ -18,12 +18,7 @@ export function CheckboxBox({
 }: CheckboxBoxProps) {
   const componentStyles = styles().box({ className, size, variant })
   return (
-    <CheckboxPrimitive.Root
-      className={componentStyles}
-      role="checkbox"
-      aria-label="checkbox"
-      {...props}
-    >
+    <CheckboxPrimitive.Root className={componentStyles} {...props}>
       {children}
     </CheckboxPrimitive.Root>
   )
