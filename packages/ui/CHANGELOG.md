@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.1.3
+
+### Patch Changes
+
+- Circular Progress released and added variant in avatar component
+
 ## 1.1.2
 
 ### Patch Changes
