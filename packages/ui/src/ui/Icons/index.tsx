@@ -43,3 +43,9 @@ export * from './IconBadgeSolid'
 
 export * from './IconNotebookRegular'
 export * from './IconNotebookSolid'
+
+export * from './IconCrownRegular'
+export * from './IconCrownSolid'
+
+export * from './IconDocumentRegular'
+export * from './IconDocumentSolid'
