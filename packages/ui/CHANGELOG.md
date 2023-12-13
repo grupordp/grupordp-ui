@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.1.6
+
+### Patch Changes
+
+- Added more icons IconCalendarSolid and IconCalendarRegular
+
 ## 1.1.5
 
 ### Patch Changes
