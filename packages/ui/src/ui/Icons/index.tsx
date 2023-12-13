@@ -3,18 +3,31 @@ import { ComponentProps } from 'react'
 export interface IconProps extends ComponentProps<'svg'> {}
 
 export * from './IconEnvelopeRegular'
+
 export * from './IconLockRegular'
+
 export * from './IconEyeCrossedRegular'
+
 export * from './IconEyeRegular'
+
 export * from './IconArrowLeftRegular'
+
 export * from './IconCheckRegular'
+
 export * from './IconExitRegular'
+
 export * from './IconUndoRegular'
+
 export * from './IconSunRegular'
+
 export * from './IconBellRegular'
+
 export * from './IconFlameSolid'
+
 export * from './IconUserRegular'
+
 export * from './IconSignOutRegular'
+
 export * from './IconMoonRegular'
 
 export * from './IconCommentRegular'
@@ -55,3 +68,6 @@ export * from './IconBookSolid'
 
 export * from './IconAppsRegular'
 export * from './IconAppsSolid'
+
+export * from './IconCalendarRegular'
+export * from './IconCalendarSolid'
