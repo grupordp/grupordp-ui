@@ -1,5 +1,17 @@
 # @grupordp/ui
 
+## 1.1.5
+
+### Patch Changes
+
+- Added more icons: IconBookRegular, IconBookSolid, IconAppsSolid, IconAppsRegular...
+
+## 1.1.4
+
+### Patch Changes
+
+- Added the icons Document and Crown
+
 ## 1.1.3
 
 ### Patch Changes
