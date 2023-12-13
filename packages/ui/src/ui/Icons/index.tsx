@@ -49,3 +49,9 @@ export * from './IconCrownSolid'
 
 export * from './IconDocumentRegular'
 export * from './IconDocumentSolid'
+
+export * from './IconBookRegular'
+export * from './IconBookSolid'
+
+export * from './IconAppsRegular'
+export * from './IconAppsSolid'
