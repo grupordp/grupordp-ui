@@ -1,6 +1,6 @@
 {
-    "extends": "@rocketseat/eslint-config/react",
-    "parserOptions": {
-        "warnOnUnsupportedTypeScriptVersion": false
-      }
+  "extends": "@rocketseat/eslint-config/react",
+  "parserOptions": {
+    "warnOnUnsupportedTypeScriptVersion": false
+  }
 }

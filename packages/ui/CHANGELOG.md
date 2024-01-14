@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.1.7
+
+### Patch Changes
+
+- Added a forwerdRef in button component
+
 ## 1.1.6
 
 ### Patch Changes
