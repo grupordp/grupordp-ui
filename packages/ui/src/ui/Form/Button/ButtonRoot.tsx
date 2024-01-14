@@ -10,15 +10,8 @@ export interface ButtonRootProps
   children: ReactNode
 }
 
-export const ButtonRoot = forwardRef(
-  ({
-    children,
-    isStroke,
-    size,
-    variant,
-    className,
-    ...props
-  }: ButtonRootProps) => {
+export const ButtonRoot = forwardRef<HTMLButtonElement, ButtonRootProps>(
+  ({ children, isStroke, size, variant, className, ...props }, ref) => {
     const componentStyles = styles().root({
       isStroke,
       size,
@@ -27,7 +20,7 @@ export const ButtonRoot = forwardRef(
     })
 
     return (
-      <button className={componentStyles} {...props}>
+      <button className={componentStyles} ref={ref} {...props}>
         {children}
       </button>
     )

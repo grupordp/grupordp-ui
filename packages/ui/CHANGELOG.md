@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.1.8
+
+### Patch Changes
+
+- Corrected the types from Button component
+
 ## 1.1.7
 
 ### Patch Changes
