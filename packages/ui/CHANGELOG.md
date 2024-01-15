@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.1.9
+
+### Patch Changes
+
+- fontWeights tokens string[string] types changed
+
 ## 1.1.8
 
 ### Patch Changes
