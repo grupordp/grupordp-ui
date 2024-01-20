@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.1.11
+
+### Patch Changes
+
+- Correcting exports errors
+
 ## 1.1.10
 
 ### Patch Changes

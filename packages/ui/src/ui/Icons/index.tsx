@@ -71,3 +71,6 @@ export * from './IconAppsSolid'
 
 export * from './IconCalendarRegular'
 export * from './IconCalendarSolid'
+
+export * from './IconStarRegular'
+export * from './IconStarSolid'
