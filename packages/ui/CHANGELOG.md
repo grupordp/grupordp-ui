@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.1.10
+
+### Patch Changes
+
+- Added new two icons: star-regular and star-solid
+
 ## 1.1.9
 
 ### Patch Changes
