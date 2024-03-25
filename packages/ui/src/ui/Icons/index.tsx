@@ -20,7 +20,10 @@ export * from './IconUndoRegular'
 
 export * from './IconSunRegular'
 
+export * from './IconBagAddRegular'
+
 export * from './IconBellRegular'
+export * from './IconBellSolid'
 
 export * from './IconFlameSolid'
 
