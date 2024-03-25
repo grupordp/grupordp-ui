@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.1.12
+
+### Patch Changes
+
+- new icon bell solid icon
+
 ## 1.1.11
 
 ### Patch Changes
