@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.1.14
+
+### Patch Changes
+
+- stroke width in progress circle
+
 ## 1.1.13
 
 ### Patch Changes

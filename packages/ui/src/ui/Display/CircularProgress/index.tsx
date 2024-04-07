@@ -28,7 +28,7 @@ export function CircularProgress({
           style={{
             fill: 'none',
             stroke: 'currentColor',
-            strokeWidth: '4',
+            strokeWidth: '2',
             strokeDasharray: '125',
             strokeLinecap: 'round',
           }}
@@ -41,7 +41,7 @@ export function CircularProgress({
           style={{
             fill: 'none',
             stroke: 'currentColor',
-            strokeWidth: '4',
+            strokeWidth: '2',
             strokeDasharray: '125',
             strokeDashoffset,
             strokeLinecap: 'round',
