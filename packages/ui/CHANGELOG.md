@@ -1,5 +1,11 @@
 # @grupordp/ui
 
+## 1.1.15
+
+### Patch Changes
+
+- 5dfc9dd: stroke width 3
+
 ## 1.1.14
 
 ### Patch Changes
